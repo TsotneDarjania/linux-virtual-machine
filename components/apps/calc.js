@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import $ from 'jquery';
 const Parser = require('expr-eval').Parser;
-
+//make a comment
 const parser = new Parser({
     operators: {
       // These default to true, but are included to be explicit
