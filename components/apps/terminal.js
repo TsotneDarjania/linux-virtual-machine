@@ -74,7 +74,7 @@ export class Terminal extends Component {
     $("#terminal-body").empty();
     this.appendTerminalRow();
   };
-//asd
+
   appendTerminalRow = () => {
     let terminal = this.state.terminal;
     terminal.push(this.terminalRow(this.terminal_rows));
